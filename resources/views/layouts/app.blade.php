@@ -241,7 +241,7 @@
                         data: form ,
                         success:function(response)
                         {
-                          window.location = '/orders/summary'+ $('#order_id').val();
+                          window.location = '/orders/summary/'+ $('#order_id').val();
                         },
                         error: function(error)
                         {
